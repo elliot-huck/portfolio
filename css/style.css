@@ -7,7 +7,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700|Ubuntu:400,700');
-
 /* =======================================================
 *
 * 	Template Style 
@@ -216,6 +215,11 @@ h6 {
   text-align: center;
   padding: 50px 0 0 0;
   margin: 0;
+}
+
+.icon {
+  color: #fff;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 768px) {
@@ -1737,4 +1741,44 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+
+.colorlib-nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 1rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .colorlib-nav-toggle {
+    display: inline;
+    margin-left: 1em;
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 0;
+  }
+  .logo {
+    font-size: 1rem;
+    padding: .5em;
+  }
+  .nav-links {
+    display: none;
+  }
+  .row {
+    padding-right: 1em;
+  }
+  .colorlib-nav-toggle {
+    display: inline;
+    margin-left: 1em;
+    transform: rotate(180deg);
+  }
 }
