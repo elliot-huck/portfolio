@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700|Ubuntu:400,700');
+
 /* =======================================================
 *
 * 	Template Style 
@@ -14,11 +16,11 @@
 * ======================================================= */
 
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Ubuntu", sans-serif;
   line-height: 1.8;
   font-size: 20px;
   background: #f0f0f0;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #333333;
 }
@@ -42,18 +44,22 @@ body.menu-show {
   overflow-y: hidden;
 }
 
-a {
-  color: #fff;
-  margin: .5em;
-  font-weight: lighter;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+.nav-links {
+  margin-top: .5em;
 }
 
-a:hover {
+.nav-links a {
+  color: #fff;
+  margin: .5em;
+  font-weight: 300;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.nav-links a:hover {
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   position: relative;
   bottom: 1px;
   /* margin: 0; */
@@ -65,15 +71,15 @@ a:active {
   outline: none;
 }
 
-a.logo {
-  color: #0ff;
+.logo a:hover {
+  text-decoration: none;
 }
 
 p,
 span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Inconsolata", monospace;
+  font-family: "Ubuntu", sans-serif;
 }
 
 span {
@@ -88,7 +94,7 @@ h4,
 h5,
 h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -1551,7 +1557,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   font-size: 60px;
   display: block;
   color: black;
-  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
@@ -1563,7 +1569,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   display: block;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
   font-weight: 400;
   color: gray;
 }
