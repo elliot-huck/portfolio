@@ -1816,9 +1816,9 @@ input[type="text"] {
   opacity: .2;
   -webkit-animation-name: scroll-down;
   animation-name: scroll-down;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-duration: 1s;
   animation-iteration-count: 10;
   animation-direction: alternate;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in;
 }
