@@ -1800,3 +1800,25 @@ input[type="text"] {
 #vocabulous-card {
   background-image: url("../images/vocabulous-1.jpg");
 }
+
+@keyframes scroll-down {
+  from {top: 0px;}
+  to {top: 50px; opacity: .6;}
+}
+
+@-webkit-keyframes scroll-down {
+  from {top: 0px;}
+  to {top: 100%}
+}
+
+#scroll-down {
+  position: relative;
+  opacity: .2;
+  -webkit-animation-name: scroll-down;
+  animation-name: scroll-down;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
