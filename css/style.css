@@ -484,6 +484,10 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   background: #fafafa;
 }
 
+.grey-background {
+  background: #F4FAFF;
+}
+
 .intro-heading {
   margin-bottom: 3em;
 }
@@ -1011,7 +1015,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 
 #colorlib-testimony {
   position: relative;
-  background: #fafafa;
+  /* background: #fafafa; */
 }
 
 #colorlib-testimony .testimony-slide {
@@ -1785,4 +1789,14 @@ input[type="text"] {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-card {
+  background: #fff;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#vocabulous-card {
+  background-image: url("../images/vocabulous-1.jpg");
 }
