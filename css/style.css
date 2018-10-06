@@ -1792,13 +1792,18 @@ input[type="text"] {
 }
 
 .project-card {
-  background: #fff;
+  background: #000;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #vocabulous-card {
   background-image: url("../images/vocabulous-1.jpg");
+}
+
+#nutshell-card {
+  background-image: url("../images/nutshell-2.jpg");
 }
 
 @keyframes scroll-down {
